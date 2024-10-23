@@ -1,9 +1,9 @@
 [build]
-  base = "client"  # This specifies that Netlify should look into the 'client' folder
-  publish = "client/build"  # Replace 'build' with the actual output folder for your frontend
-  command = "npm run build"  # Adjust this to your actual build command, e.g., for React
+  base = "client"
+  publish = "client/build"
+  command = "npm run build"  # or the appropriate command for your frontend
 
-# Uncomment if you're using Netlify functions
+# Uncomment and adjust if you're using serverless functions
 # [build.environment]
 #   NODE_VERSION = "16"
 
