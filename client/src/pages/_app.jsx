@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
     <StateProvider intialState={intialState} reducer={reducer}>
       <Head>
         <title>Quick chat messenger</title>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/download.png" />
       </Head>
       <Component {...pageProps} />;
     </StateProvider> 
